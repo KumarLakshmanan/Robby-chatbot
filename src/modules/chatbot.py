@@ -54,6 +54,3 @@ def count_tokens_chain(chain, query):
         result = chain.run(query)
         st.write(f'###### Tokens used in this conversation : {cb.total_tokens} tokens')
     return result 
-
-    
-    

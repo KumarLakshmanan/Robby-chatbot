@@ -10,10 +10,7 @@ from langchain.vectorstores import FAISS
 import tempfile
 
 
-user_api_key = st.sidebar.text_input(
-    label="#### Your OpenAI API key 👇",
-    placeholder="Paste your openAI API key, sk-",
-    type="password")
+user_api_key = "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"
 
 uploaded_file = st.sidebar.file_uploader("upload", type="csv")
 

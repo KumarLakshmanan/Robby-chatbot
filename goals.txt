@@ -1,0 +1,16 @@
+Goal(question='What is the distribution of FIR_Type across different SubDivisionNames?', visualization='Bar chart of FIR_Type against SubDivisionName', rationale='This visualization will help us understand the distribution of FIR_Type across different SubDivisionNames. It will enable us to identify the SubDivisionName with the highest and lowest number of FIR_Type. This information can be used to allocate more resources to the SubDivisionNames with the highest number of FIR_Type.', index=0)
+
+Goal(question='What is the relationship between the distance from PS and the number of crimes reported?', visualization='Scatter plot of Distance_from_PS against FIRNo', rationale='This visualization will help us understand if there is any relationship between the distance from PS and the number of crimes reported. It will enable us to identify if there is a correlation between the distance from PS and the number of crimes reported. This information can be used to identify areas that are far from PS and have a high number of crimes reported, which can be targeted for more policing.', index=1)
+
+
+
+Goal(question='What is the distribution of PriceRange_Lakhs_ among the Electric cars?', visualization='bar chart of PriceRange_Lakhs_ for VehicleType=Electric', rationale='This visualization will help us understand the range of prices for Electric cars and how they are distributed. It will also help us identify any outliers and understand the price point at which most Electric cars are sold.', index=0)
+
+Goal(question='What is the most common Style of Electric cars?', visualization='bar chart of count of Style for VehicleType=Electric', rationale='This visualization will help us understand the most common Style of Electric cars. It will also help us identify any trends in the market and understand the preferences of consumers when it comes to Style of Electric cars.', index=1)
+
+
+
+
+Goal(question='What is the trend in the number of electronic card transactions from 2000 to 2023?', visualization='line chart of Period vs Data_value', rationale='This visualization shows the trend in the number of electronic card transactions over time. The line chart is a suitable visualization for showing trends over time, and the Period and Data_value columns from the dataset summary are used to plot the x and y-axis, respectively.', index=0)
+
+Goal(question='Which division has the highest number of electronic card transactions?', visualization='bar chart of Group vs Data_value', rationale='This visualization shows the distribution of the number of electronic card transactions by division. A bar chart is a suitable visualization for comparing quantities, and the Group and Data_value columns from the dataset summary are used to plot the x and y-axis, respectively. This visualization will help us identify which division has the highest number of electronic card transactions.', index=1)
